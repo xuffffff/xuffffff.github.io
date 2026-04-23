@@ -17,42 +17,59 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# 关于我
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+我是徐帆，东华大学信息与智能科学学院软件工程专业本科生，目前为东华大学人工智能实验室核心成员。我的研究兴趣包括生成式大模型、跨模态表示学习、多模态推荐、EEG 信号生成与大语言模型应用。
 
+本科阶段，我保持了较好的专业学习成绩，GPA 为 4.0414/5，专业排名 4/85（4.7%），曾获东华大学一等奖学金（Top 5%）。在科研与竞赛中，我主要围绕脑机接口数据生成、多模态推荐系统、检索增强生成与大语言模型微调等方向开展工作，希望通过更可靠的生成建模与跨模态表示学习方法，提升模型在真实复杂场景中的鲁棒性与可用性。
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🔥 最新动态
 
-# 📝 Publications 
+- *2025.07*: 获第二十七届中国机器人及人工智能大赛国家二等奖。
+- *2024.11*: 开始独立开展基于高精度编解码器的对抗性 EEG 信号扩散生成模型研究。
+- *2024.10*: 加入东华大学人工智能实验室，参与人工智能相关科研项目与竞赛。
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 🔬 科研经历
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+## 基于高精度编解码器的对抗性 EEG 信号扩散生成模型
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+*2024.11 - 至今，独立一作，Knowledge-Based Systems 在审*
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+针对脑机接口（BCI）任务中 EEG 数据稀缺、类别不平衡和生成样本判别性不足的问题，提出 HiPreA-EEG 生成模型，将图像域稳定扩散模型引入脑电信号生成任务。该方法设计高精度 EEG 编解码器以实现近无损 EEG-to-RGB 转换，并结合 LoRA 适配器、对比扩散损失与多维质量过滤模块，提升生成样本的信号质量与类别判别性。
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+本人独立主导模型架构设计、核心算法实现与实验验证，重点完成基于 Float32 尾数编码的高精度编解码器、对抗微调网络以及基于 MSE/Pearson 等指标的低质量信号过滤模块。实验在 BCI-2a、DEAP 与 BCI-IV-1 等公开数据集上开展，验证了模型在少样本与跨域场景下的泛化能力。
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## 基于鲁棒兴趣树与分层语义对齐的抗噪多模态推荐模型
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*2025.10 - 至今，二作，ACM MM 在审*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+针对多模态推荐系统中嘈杂相似性链接带来的错误传播，以及松散多模态特征导致的跨模态语义错位问题，参与提出 RIT-HSA 推荐框架。该框架通过鲁棒兴趣树建模可靠语义关系，并结合分层语义对齐模块，将多模态特征分解为粗粒度语义锚与细粒度细节，从而提升推荐模型的稳健性与表现质量。
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+本人主要参与鲁棒兴趣树模块的设计与开发，通过构建可靠语义关系图并进行剪枝，在捕捉高阶依赖的同时抑制噪声连接；同时负责多数据集超参数调整与实验结果图绘制。
+
+## 基于检索增强与多专家微调的文言文智能翻译系统
+
+*2024.10 - 2024.12，核心成员*
+
+面向文言文跨时代语义鸿沟与长文本语境缺失问题，参与构建“文言译动”智能翻译框架。系统集成 RAG 技术构建典故知识库，并基于 Qwen2.5-7B 进行多专家 LoRA 微调，以适配历史、诸子等不同文体特征。实验结果显示，引入 RAG 后模型 BLEU 评分提升至 27.91，优于百度翻译及未加入 RAG 的基线模型。
+
+本人参与训练数据与测试数据整理，协助构建向量知识库并完成关键知识点文档的向量化处理与存储；同时参与四个垂直领域模型的 LoRA 微调，提升模型对长文本与特定文体的适配能力。
+
+# 🎖 荣誉奖励
+
+- *2025.12*: NETCCS 全国大学生英语翻译大赛省二等奖。
+- *2025.11*: 第七届全球校园人工智能算法精英大赛省一等奖。
+- *2025.07*: 第二十七届中国机器人及人工智能大赛国家二等奖。
+- *2023.09 - 至今*: 东华大学一等奖学金（Top 5%）。
+
+# 📖 教育背景
+
+- *2023.09 - 至今*: 东华大学，信息与智能科学学院，软件工程专业本科生。
+- GPA：4.0414/5；专业排名：4/85（4.7%）。
+- 英语水平：CET-4 584，CET-6 470。
+- 核心课程：线性代数、计算机组成与结构、操作系统原理、多媒体技术、计算思维与人工智能、深度学习与应用、专业英语。
+
+# 🧑‍💻 校园经历
+
+- *2024.10 - 至今*: 东华大学人工智能实验室核心成员。
+- 在保持专业课学习的同时，参与人工智能方向科研项目与竞赛，主要关注生成式大模型、跨模态表示学习、多模态推荐、EEG 信号生成与大语言模型应用等方向。
