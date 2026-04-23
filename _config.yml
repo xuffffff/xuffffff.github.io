@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "徐帆的学术主页"
-description              : "东华大学软件工程专业本科生，研究方向包括脑机接口、EEG 信号生成、多模态推荐与大语言模型应用。"
+description              : "东华大学软件工程专业本科生，研究方向包括生成式大模型、跨模态表示学习、多模态推荐与EEG信号生成。"
 repository               : "xuffffff/xuffffff.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "徐帆"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "东华大学信息与智能科学学院软件工程专业本科生"
+  bio              : "东华大学"
   location         : "上海，中国"
   employer         : "东华大学"
   pubmed           : 
