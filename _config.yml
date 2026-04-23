@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "徐帆的学术主页"
-description              : "东华大学软件工程专业本科生，研究方向包括脑机接口、EEG 信号生成、多模态推荐与大语言模型应用。"
+title                    : "Fan Xu's Academic Homepage"
+description              : "Undergraduate student in Software Engineering at Donghua University, with research interests in brain-computer interfaces, EEG signal generation, multimodal recommendation, and large language model applications."
 repository               : "xuffffff/xuffffff.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "徐帆"
+  name             : "Fan Xu"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "东华大学信息与智能科学学院软件工程专业本科生"
-  location         : "上海，中国"
-  employer         : "东华大学"
+  bio              : "Undergraduate student in Software Engineering, College of Information Science and Technology, Donghua University"
+  location         : "Shanghai, China"
+  employer         : "Donghua University"
   pubmed           : 
   googlescholar    : 
   email            : "231310407@mail.dhu.edu.cn"
