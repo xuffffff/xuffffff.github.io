@@ -23,7 +23,7 @@ redirect_from:
 
 本科阶段，我保持了较好的专业学习成绩，GPA 为 4.0414/5，专业排名 4/85（4.7%），曾获东华大学一等奖学金（Top 5%）。在科研与竞赛中，我主要围绕脑机接口数据生成、多模态推荐系统、检索增强生成与大语言模型微调等方向开展工作，希望通过更可靠的生成建模与跨模态表示学习方法，提升模型在真实复杂场景中的鲁棒性与可用性。
 
-<span class='anchor' id='news'></span>
+<span class='anchor' id='-news'></span>
 
 # 🔥 News / 最新动态
 
@@ -31,7 +31,7 @@ redirect_from:
 - *2024.11*: 开始独立开展基于高精度编解码器的对抗性 EEG 信号扩散生成模型研究。
 - *2024.10*: 加入东华大学人工智能实验室，参与人工智能相关科研项目与竞赛。
 
-<span class='anchor' id='publications'></span>
+<span class='anchor' id='-publications'></span>
 
 # 🔬 Publications / 科研经历
 
@@ -59,7 +59,7 @@ redirect_from:
 
 本人参与训练数据与测试数据整理，协助构建向量知识库并完成关键知识点文档的向量化处理与存储；同时参与四个垂直领域模型的 LoRA 微调，提升模型对长文本与特定文体的适配能力。
 
-<span class='anchor' id='honors-awards'></span>
+<span class='anchor' id='-honors-and-awards'></span>
 
 # 🎖 Honors and Awards / 荣誉奖励
 
@@ -68,7 +68,7 @@ redirect_from:
 - *2025.07*: 第二十七届中国机器人及人工智能大赛国家二等奖。
 - *2023.09 - 至今*: 东华大学一等奖学金（Top 5%）。
 
-<span class='anchor' id='educations'></span>
+<span class='anchor' id='-educations'></span>
 
 # 📖 Educations / 教育背景
 
@@ -77,13 +77,13 @@ redirect_from:
 - 英语水平：CET-4 584，CET-6 470。
 - 核心课程：线性代数、计算机组成与结构、操作系统原理、多媒体技术、计算思维与人工智能、深度学习与应用、专业英语。
 
-<span class='anchor' id='invited-talks'></span>
+<span class='anchor' id='-invited-talks'></span>
 
 # 💬 Invited Talks / 交流展示
 
 - 当前暂无公开邀请报告信息，后续如有学术报告、论坛分享或公开展示经历，可在此补充。
 
-<span class='anchor' id='internships'></span>
+<span class='anchor' id='-internships'></span>
 
 # 🧑‍💻 Internships / 校园经历
 
